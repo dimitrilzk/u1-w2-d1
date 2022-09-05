@@ -234,7 +234,7 @@ footer a {
 
 @media screen and (min-width: 320px) {
     main {
-      text-align: center;
+      text-align: left;
       font-size: 1.1rem;
       line-height: 1.3;
     }
@@ -252,4 +252,239 @@ footer a {
     .toTop .far, .social .far {
       font-size: 3rem;
     }
+    table {
+        margin-inline: auto;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    main {
+      text-align: left;
+      font-size: 1.1rem;
+      line-height: 1.3;
+    }
+    header {
+      text-align: center;
+      font-size: 1.1rem;
+      line-height: 1.3;
+      position: static;
+    }
+    footer {
+      text-align: center;
+      font-size: 1rem;
+      line-height: 1.3;
+    }
+    .toTop .far, .social .far {
+      font-size: 3rem;
+    }
+    table {
+        margin-inline: auto;
+    }
+    button, input {
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    main {
+      text-align: left;
+      font-size: 1.5rem;
+      line-height: 1.5;
+    }
+    header {
+      text-align: center;
+      font-size: 1.5rem;
+      line-height: 1.5;
+      position: static;
+    }
+    footer {
+      text-align: center;
+      font-size: 1rem;
+      line-height: 1.3;
+    }
+    .toTop .far, .social .far {
+      font-size: 3.8rem;
+    }
+    table {
+        margin-inline: auto;
+    }
+    button, input {
+        font-size: 1.5rem;
+    }
+    
+}
+@media screen and (min-width: 1024px) {
+    main {
+      text-align: left;
+      font-size: 2rem;
+      line-height: 2.3;
+      padding-inline: 4%;
+    }
+    header {
+      text-align: center;
+      font-size: 2rem;
+      line-height: 2.3;
+      position: static;
+    }
+    footer {
+      text-align: center;
+      font-size: 1.2rem;
+      line-height: 1.5;
+    }
+    .toTop .far, .social .far {
+      font-size: 4rem;
+    }
+    table {
+        margin-inline: auto;
+    }
+    button, input {
+        font-size: 2rem;
+    }
+   
+}
+@media screen and (min-width: 1280px) {
+    main {
+      text-align: left;
+      font-size: 2rem;
+      line-height: 2.3;
+      padding-inline: 8%;
+    }
+    header {
+      text-align: center;
+      font-size: 2rem;
+      line-height: 2.3;
+      position: static;
+    }
+    footer {
+      text-align: center;
+      font-size: 1.2rem;
+      line-height: 1.5;
+    }
+    .toTop .far, .social .far {
+      font-size: 5rem;
+    }
+    table {
+        margin-inline: auto;
+    }
+    button, input {
+        font-size: 2.5rem;
+    }
+   
+}
+
+@media screen and (min-width: 1344px) {
+    main {
+      text-align: left;
+      font-size: 2rem;
+      line-height: 2.3;
+      padding-inline: 12%;
+    }
+    header {
+      text-align: center;
+      font-size: 2rem;
+      line-height: 2.3;
+      position: static;
+    }
+    footer {
+      text-align: center;
+      font-size: 1.5rem;
+      line-height: 1.5;
+    }
+    .toTop .far, .social .far {
+      font-size: 6rem;
+    }
+    table {
+        margin-inline: auto;
+    }
+    button, input {
+        font-size: 3rem;
+    }
+   
+}
+
+@media screen and (min-width: 1600px) {
+    main {
+      text-align: left;
+      font-size: 2.5rem;
+      line-height: 2.2;
+      padding-inline: 10%;
+    }
+    header {
+      text-align: center;
+      font-size: 2.5rem;
+      line-height: 2.2;
+      position: static;
+    }
+    footer {
+      text-align: center;
+      font-size: 2rem;
+      line-height: 2;
+    }
+    .toTop .far, .social .far {
+      font-size: 7rem;
+    }
+    table {
+        margin-inline: auto;
+    }
+    button, input {
+        font-size: 3.5rem;
+    }
+   
+}
+
+@media screen and (min-width: 1920px) {
+    main {
+      text-align: left;
+      font-size: 3rem;
+      line-height: 2.3;
+      padding-inline: 10%;
+    }
+    header {
+      text-align: center;
+      font-size: 3rem;
+      line-height: 2.3;
+      position: static;
+    }
+    footer {
+      text-align: center;
+      font-size: 2.5rem;
+      line-height: 2.3;
+    }
+    .toTop .far, .social .far {
+      font-size: 8rem;
+    }
+    table {
+        margin-inline: auto;
+    }
+
+    button, input {
+        font-size: 4rem;
+    }
+   
+}
+@media print {
+    body {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 2rem;
+        border: 1px solid black;
+        line-height: 2;
+    }
+    header {
+        display: none;
+    }
+    aside {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+    section {
+        display: none;
+    }
+    iframe {
+        display: none;
+    }
+    .toTop .far, .social .far {
+        display: none;
+    }
+
 }
